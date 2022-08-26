@@ -17,10 +17,10 @@ A repo containign share configs for different os
 ## Supported Files
 
 * Linux
-  * bashrc (for linux)
-  * bash_aliases (for linux)
+  * bashrc
+  * bash_aliases
 * MacOS
-  * zshrc (mac)
-  * zshenv (mac)
+  * zshrc
+  * zshenv
 
 Also we setup the scripts folder (Currently empty)
