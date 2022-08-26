@@ -3,6 +3,4 @@ alias compile="gcc -o bin/$1 src/$1;"
 alias run="bin/$1;"
 
 # Then we load the common aliases
-if [ -f ~/.my_configs/common/.bash_aliases ]; then
-    . ~/.my_configs/common/.bash_aliases
-fi
+source ~/.my_configs/common/.common_aliases

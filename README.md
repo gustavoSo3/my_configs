@@ -4,10 +4,23 @@ A repo containign share configs for different os
 
 ## Supported OS
 
-  * Ubuntu
-  
+* Ubuntu
+* MacOS
+
+## Common files
+
+* vimrc
+* gitconfig
+* common_aliases
+* common_env
+
 ## Supported Files
 
-  * vimrc
-  * gitconfig
+* Linux
   * bashrc (for linux)
+  * bash_aliases (for linux)
+* MacOS
+  * zshrc (mac)
+  * zshenv (mac)
+
+Also we setup the scripts folder (Currently empty)

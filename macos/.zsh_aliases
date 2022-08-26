@@ -1,0 +1,3 @@
+alias devserver="ssh -p 2222 gustavo@localhost;"
+
+source ~/.my_configs/common/.common_aliases
