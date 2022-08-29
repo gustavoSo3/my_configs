@@ -112,3 +112,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Start tmux
+[[ $TERM != "screen" ]] && exec tmux

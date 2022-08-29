@@ -26,3 +26,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Then we load alias
 source ~/.my_configs/macos/.zsh_aliases
+
+# Start tmux
+[[ $TERM != "screen" ]] && exec tmux
