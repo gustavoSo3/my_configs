@@ -1,3 +1,5 @@
+[core]
+	editor = vim
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
@@ -6,8 +8,6 @@
 [user]
 	name = Gustavo Sotres
 	email = gus.sotres@gmail.com
-	signingky = B345EEE112D18C94
-	signingkey = B345EEE112D18C94
 [init]
 	defaultBranch = main
 [alias]
