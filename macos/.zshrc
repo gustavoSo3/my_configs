@@ -35,6 +35,8 @@ if [ -d ~/gitstatus ];then
 			(( VCS_STATUS_NUM_STAGED    )) && RPROMPT+="%F{034}$VCS_STATUS_NUM_STAGED+ %f"
 			(( VCS_STATUS_NUM_UNSTAGED  )) && RPROMPT+="%F{160}$VCS_STATUS_NUM_UNSTAGED! %f"
 			(( VCS_STATUS_NUM_UNTRACKED )) && RPROMPT+="%F{178}$VCS_STATUS_NUM_UNTRACKED? %f"
+			(( VCS_STATUS_COMMITS_AHEAD )) && RPROMPT+="%F{178}$VCS_STATUS_COMMITS_AHEAD↗ %f"
+			(( VCS_STATUS_COMMITS_BEHIND )) && RPROMPT+="%F{178}$VCS_STATUS_COMMITS_BEHIND↙ %f"
 		fi
 
 		setopt no_prompt_{bang,subst} prompt_percent  # enable/disable correct prompt expansions
