@@ -10,23 +10,17 @@ sh my_configs/{OS}/apply.sh
 
 ## Supported OS
 
-* Ubuntu
 * MacOS
 
 ## Common files
 
 * vimrc
 * gitconfig
-* common_aliases
-* common_env
+* zsh_aliases
 
 ## Supported Files
 
-* Linux
-  * bashrc
-  * bash_aliases
 * MacOS
   * zshrc
-  * zshenv
+  * zprofile
 
-Also we setup the scripts folder (Currently empty)
