@@ -11,16 +11,4 @@ sh my_configs/{OS}/apply.sh
 ## Supported OS
 
 * MacOS
-
-## Common files
-
-* vimrc
-* gitconfig
-* zsh_aliases
-
-## Supported Files
-
-* MacOS
-  * zshrc
-  * zprofile
-
+* Ubuntu
