@@ -1,3 +1,5 @@
+source ~/.my_configs/common/.zsh_aliases
+
 # Setting up the prompt
 PROMPT="%F{032}%n%f@%F{032}ubuntu%f:%F{034}%~%f> "
 RPROMPT="%W-%*"
@@ -21,5 +23,3 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # Vim stile keybidns
 bindkey -e
-
-source ~/.my_configs/common/.zsh_aliases

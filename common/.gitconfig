@@ -1,15 +1,19 @@
 [core]
 	editor = vim
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+
 [user]
 	name = Gustavo Sotres
 	email = gus.sotres@gmail.com
+
 [init]
 	defaultBranch = main
+	
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 

@@ -1,6 +1,8 @@
+# Common configuration
 [include]
 	path = ~/.my_configs/common/.gitconfig
 
+# Device/OS specific config
 [user]
 	signingkey = B345EEE112D18C94
 [commit]
