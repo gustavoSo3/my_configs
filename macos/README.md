@@ -1,3 +1,3 @@
-# Needed plugings/packages/etc
+# Needed plugins/packages/etc
 
 * [gitstatus](https://github.com/romkatv/gitstatus)

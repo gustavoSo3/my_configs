@@ -1,6 +1,6 @@
 # my_configs :)
 
-A repo containign share configs for different os
+A repo containing share configs for different os
 
 To apply a config run
 

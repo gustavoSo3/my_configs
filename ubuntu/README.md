@@ -1,1 +1,1 @@
-# Needed plugings/packages/etc
+# Needed plugins/packages/etc
