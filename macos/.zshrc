@@ -1,7 +1,7 @@
 source ~/.my_configs/common/.zsh_aliases
 
 # Setting up the prompt
-PROMPT="%F{032}%n%f@%F{032}mbp%f:%F{034}%~%f> "
+PROMPT="%F{032}%n%f@%F{032}mbp%f:%F{034}%(5~|%-1~/…/%3~|%4~)%f> "
 RPROMPT=""
 
 # Settign up history
