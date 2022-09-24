@@ -1,0 +1,9 @@
+# Common configuration
+[include]
+	path = ~/.my_configs/common/.gitconfig
+
+# Device/OS specific config
+#[user]
+#	signingkey = E939512984D4FFCC
+#[commit]
+#	gpgsign = true
