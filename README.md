@@ -12,3 +12,5 @@ sh my_configs/{OS}/apply.sh
 
 * MacOS
 * Ubuntu
+
+Test :)
