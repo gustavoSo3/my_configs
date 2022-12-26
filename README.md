@@ -14,4 +14,4 @@ sh my_configs/{OS}/apply.sh
 * Ubuntu
 
 Test :)
-Signing :):
+Signing :): :O:
