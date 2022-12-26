@@ -16,3 +16,6 @@ sh my_configs/{OS}/apply.sh
 Test :)
 Signing :): :O: ahora si xd
 :(:Lwq)
+
+
+test
